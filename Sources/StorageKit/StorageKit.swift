@@ -8,8 +8,8 @@
 import Foundation
 
 struct CLIKit {
-    let name: String = "CLIKit"
-    let description: String = "Swift Package for Creating Command Line Programs"
+    let name: String = "StorageKit"
+    let description: String = "Swift Package for Handling App Data"
     let licence: String = "Apache-2.0"
     let licenceFull: String = """
             Apache License
@@ -214,6 +214,6 @@ struct CLIKit {
         See the License for the specific language governing permissions and
         limitations under the License.
     """
-    let repository: String = "https://github.com/aiirsocial/CLIKit"
+    let repository: String = "https://github.com/aiirsocial/StorageKit"
     let originalAuthor: String = "Aiirsocial Pty Ltd"
 }
