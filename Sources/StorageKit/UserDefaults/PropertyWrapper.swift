@@ -8,7 +8,7 @@
 import Foundation
 
 @propertyWrapper
-public struct UserDefault<T: UserDefaultCompatible> {
+struct UserDefault<T: UserDefaultCompatible> {
     let key: String
     let defaultValue: T
     
